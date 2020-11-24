@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EPPlus.Model\EPPlus.Model.csproj" />
+    <ProjectReference Include="..\EPPlus.v4.5.3.2\EPPlus.v4.5.3.2.csproj" />
+  </ItemGroup>
+
+</Project>
